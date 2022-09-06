@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@hr-webdev/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@hr-webdev/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@hr-webdev/core-data": ["libs/core-data/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
