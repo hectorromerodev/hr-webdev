@@ -10,6 +10,7 @@ import { RoutingModule } from './routing.module';
 import { WidgetsComponent } from './widgets/widgets.component';
 import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.component';
 import { WidgetDetailsComponent } from './widgets/widget-details/widget-details.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { WidgetDetailsComponent } from './widgets/widget-details/widget-details.
     WidgetsComponent,
     WidgetsListComponent,
     WidgetDetailsComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
